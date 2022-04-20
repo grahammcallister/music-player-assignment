@@ -12,7 +12,7 @@ Modify Nav to appear on home page
     add routing const routes: Routes = [{ path: 'dashboard', component: DashComponent }] to app-routing.module.ts
 Add Dashboard component ng generate @angular/material:dashboard dash
 Add Deezer service with ng generate service deezer
-    Add Deezer to environment.ts
+    Add Deezer api url to environment.ts and to app.module.ts Providers
 
 ## Running locally
 Run the app by npm run start
