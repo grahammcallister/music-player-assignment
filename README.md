@@ -13,6 +13,9 @@ Modify Nav to appear on home page
 Add Dashboard component ng generate @angular/material:dashboard dash
 Add Deezer service with ng generate service deezer
     Add Deezer api url to environment.ts and to app.module.ts Providers
+    Generate type interfaces for Deezer API using Postman and a type tool eg. http://json2ts.com/
+    Add api calls for Album, Artist
+    Add search api call for Artist
 
 ## Running locally
 Run the app by npm run start

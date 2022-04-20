@@ -17,12 +17,14 @@ import { MatCardModule } from '@angular/material/card';
 import { MatMenuModule } from '@angular/material/menu';
 import { HttpClientModule } from '@angular/common/http';
 import { DeezerService } from './deezer.service';
+import { SearchComponent } from './search/search.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavComponent,
-    DashComponent
+    DashComponent,
+    SearchComponent
   ],
   imports: [
     BrowserModule,
